@@ -43,6 +43,8 @@ import java.nio.charset.StandardCharsets;
  * 鉴权认证
  *
  * @author 吴志旋
+ * 自定义filter 需要实现Ordered 和GlobalFilter
+ *  Ordered 优先级 越小优先级越大
  */
 @Slf4j
 @Component
